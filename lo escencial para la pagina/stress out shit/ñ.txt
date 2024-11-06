@@ -1,0 +1,16 @@
+.social-icons {
+   text-align: center;
+   margin-top: 20px;
+                 }
+            
+            .social-icons a {
+                color: whitesmoke;
+                margin: 0 10px;
+                font-size: 24px;
+                transition: color 0.3s ease;
+            }
+            
+            .social-icons a:hover {
+                color: red;
+            }
+            
