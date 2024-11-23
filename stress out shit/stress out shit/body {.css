@@ -5,13 +5,17 @@ body {
     flex-direction: column;
     font-family: Arial, Impact, sans-serif;
     background: linear-gradient(to bottom, #ffaf38, #ff5101);
-    background-image: url('img/stupid-boys2.png');
+    background-image: url('img/stupid-boys3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
-    color:white
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    
 
+    
 }
 
 .background{
@@ -297,3 +301,14 @@ footer a i {
 .controls input[type="range"]::-moz-range-thumb:hover {
     background: #ff5101;
 }
+
+ @font-face {
+            font-family: 'MiFuente';
+            src: url('font/difficult\ 2.otf') format('truetype');
+        }
+        
+        body {
+            font-family: 'MiFuente', sans-serif;
+            color: white;
+        }
+
